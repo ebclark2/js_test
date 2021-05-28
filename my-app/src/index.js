@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { MyRouterApp, Home, About, Contact } from './MyRouterApp';
+import { MyRouterApp } from './MyRouterApp';
+import FilterableTraining from './FilterableTraining';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -12,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 ReactDOM.render((
-  <MyRouterApp />
+  <FilterableTraining />
 ), document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
