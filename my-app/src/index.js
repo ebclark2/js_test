@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { MyRouterApp } from './MyRouterApp';
 import FilterableTraining from './FilterableTraining';
+import AzureServiceView from './AzureServices';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -13,7 +14,10 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 ReactDOM.render((
-  <FilterableTraining />
+  //<FilterableTraining />
+  <React.StrictMode>
+  <AzureServiceView />
+  </React.StrictMode>
 ), document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
